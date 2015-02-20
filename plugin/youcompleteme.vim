@@ -91,6 +91,9 @@ let g:loaded_youcompleteme = 1
 " The only defaults that are here are the ones that are only relevant to the YCM
 " Vim client and not the server.
 
+let g:ycm_complete_auto_select =
+      \ get( g:, 'ycm_complete_auto_select', 1 )
+
 let g:ycm_allow_changing_updatetime =
       \ get( g:, 'ycm_allow_changing_updatetime', 1 )
 
